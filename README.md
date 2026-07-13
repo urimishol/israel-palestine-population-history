@@ -65,7 +65,7 @@ The 2023–2026 values are provisional, especially for Gaza. War, displacement, 
 
 ## Suggested citation
 
-> Mishol, Uri. *Historical Population of Israel, the West Bank and Gaza, 1500 BCE–2026*. Version 1.0, 2026. GitHub: `GITHUB_URL`. DOI: `DOI_IF_ASSIGNED`.
+> Mishol, Uri. *Historical Population of Israel, the West Bank and Gaza, 1500 BCE–2026*. Version 1.0, 2026. GitHub: [github.com/urimishol/israel-palestine-population-history](https://github.com/urimishol/israel-palestine-population-history).
 
 ## Corrections
 
