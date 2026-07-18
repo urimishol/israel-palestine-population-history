@@ -1,0 +1,17 @@
+{
+  "name": "historical-palestine-population-data",
+  "version": "2.14.2",
+  "description": "Historical resident-community population dataset for Israel, the West Bank and Gaza, 1500 BCE–2026",
+  "license": "CC-BY-4.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/urimishol/israel-palestine-population-history.git"
+  },
+  "scripts": {
+    "test": "node scripts/validate-data.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
