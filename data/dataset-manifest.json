@@ -1,0 +1,20 @@
+{
+  "dataset_version": "2.14.2",
+  "schema_version": 2,
+  "territory_scope": "Modern Israel excluding the Golan Heights + West Bank including East Jerusalem + Gaza Strip",
+  "authoritative_anchor": {
+    "research_artifact_filename": "historical-palestine-population-animation-anchors-v2.12.0-final.csv",
+    "research_artifact_sha256": "B546FF3882B8F6F1DDE27B5FA2083DDE6899806CFFC72E39E45234BA752FE79F",
+    "runtime_filename": "animation-anchors.csv",
+    "sha256": "C36994A3B70E8AECC8EFEDA926DF2F9E6BA9E8FECEDD13DEC0E4F05050942895",
+    "content_identity_verified": false
+  },
+  "files": {
+    "anchors": "animation-anchors.csv",
+    "communities": "communities.csv",
+    "transitions": "transitions.csv",
+    "sources": "sources.csv",
+    "timing": "timing.csv"
+  },
+  "runtime_status": "production_uses_schema_v2"
+}

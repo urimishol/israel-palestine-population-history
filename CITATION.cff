@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Historical Population of Israel, the West Bank and Gaza, 1500 BCE–2026"
+type: dataset
+authors:
+  - family-names: Mishol
+    given-names: Uri
+version: 2.14.2
+date-released: 2026-07-18
+url: "https://github.com/urimishol/israel-palestine-population-history"
+repository-code: "https://github.com/urimishol/israel-palestine-population-history"
+license: CC-BY-4.0
+abstract: >-
+  A cited, uncertainty-preserving dataset of resident community population
+  scenarios for the fixed territory of modern Israel excluding the Golan
+  Heights, the West Bank including East Jerusalem, and Gaza, from approximately
+  1500 BCE to 2026 CE.

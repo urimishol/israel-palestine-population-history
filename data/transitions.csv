@@ -1,0 +1,12 @@
+transition_id,from_year,to_year,operation,source_id,target_id,visual_style,branch_order,transition_start_year,transition_end_year
+T01_LBA_ANALYTICAL_EMERGENCE,-1500,-1200,split,other_unknown,israelite_jewish,opening_analytical_emergence,0,,
+T01_LBA_ANALYTICAL_EMERGENCE,-1500,-1200,split,other_unknown,philistines,opening_analytical_emergence,1,,
+T01_LBA_ANALYTICAL_EMERGENCE,-1500,-1200,split,other_unknown,other_unknown,source_continuation,2,,
+T02_TWO_KINGDOMS_SPLIT,-1000,-850,split,israelite_jewish,northern_israelites,split_child_flow,0,,
+T02_TWO_KINGDOMS_SPLIT,-1000,-850,split,israelite_jewish,israelite_jewish,source_continuation,1,,
+T04_POST_ASSYRIAN_MERGE,-722,-701,merge,northern_israelites,israelite_jewish,merge_source_flow,0,,
+T04_POST_ASSYRIAN_MERGE,-722,-701,merge,northern_israelites,other_unknown,merge_source_flow,1,,
+T05_PHILISTINE_CATEGORY_MERGE,-701,-586,merge,philistines,other_unknown,qualitative_merge,0,-604,-586
+T06_SAMARITAN_EMERGENCE,-538,-400,split,other_unknown,samaritans,split_child_flow,0,,
+T06_SAMARITAN_EMERGENCE,-538,-400,split,other_unknown,other_unknown,source_continuation,1,,
+T07_JUDEANS_TO_JEWS_RENAME,-400,-332,rename,israelite_jewish,israelite_jewish,label_crossfade,0,,
