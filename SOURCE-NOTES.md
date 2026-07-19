@@ -1,6 +1,6 @@
 # Source notes and derivations
 
-**Dataset:** v2.14.2  
+**Dataset:** v2.15.3  
 **Territory:** modern Israel excluding the Golan Heights, plus the West Bank including East Jerusalem, plus Gaza  
 **Population rule:** residents only
 
@@ -17,30 +17,32 @@ This guide connects every runtime source ID to its evidentiary role, derivation 
 - **Stitched official series:** components from different official systems were combined and geographically reconciled.
 - **Interpolation:** used between anchors for visualization. Interpolated frames are not historical observations.
 
+Source IDs are stable technical keys used by the runtime and documentation. Their numbering organizes the registry; it is not a chronology of public releases.
+
 ## Source register S01–S20
 
 ### S01_BROSHI_FINK_IA — Iron Age settlement syntheses
 
-**Role:** 1200, 1000, 722 and 701 BCE baseline evidence, later reconciled through S22 and S24.  
+**Role:** baseline evidence for the 1200, 1000, 722 and 701 BCE reconstructions, combined with the Iron Age allocation modules documented under S22 and S24.  
 **Type:** scholarly archaeological estimates plus project reconstruction.  
 **Retained principal citation:** Magen Broshi and Israel Finkelstein, “The Population of Palestine in Iron Age II,” *Bulletin of the American Schools of Oriental Research* 287 (1992): 47–60. [Stable article record](https://www.journals.uchicago.edu/doi/10.2307/1357138).
 
-No census exists. Settlement size, contemporaneity, persons-per-hectare assumptions and identity attribution are uncertain. Some published northern-kingdom totals include Gilead east of the Jordan; those residents are excluded. Earlier working notes also used an Iron I synthesis dated 1988, but did not retain a complete public bibliographic entry.
+No census exists. Settlement size, contemporaneity, persons-per-hectare assumptions and identity attribution are uncertain. Some published northern-kingdom totals include Gilead east of the Jordan; those residents are excluded. An Iron I synthesis dated 1988 also informed this source family, but the retained project bibliography does not contain a complete public entry.
 
 ### S02_PERSIAN_YEHUD — Persian-period Yehud and Samaria studies
 
 **Role:** 586, 538 and 400 BCE back-casts and the broad Yehud/Samaria framework.  
 **Type:** scholarly reconstruction and project back-casting.
 
-The original research record did not retain a single complete bibliographic entry for this source family. Yehud and Samaria cover only parts of the fixed territory; coastal districts, Idumaea and other regions remain in Other / Unknown. Return from exile is one demographic process among local continuity, movement and administrative change.
+The retained project bibliography does not contain a single complete entry for this source family. Yehud and Samaria cover only parts of the fixed territory; coastal districts, Idumaea and other regions remain in Other / Unknown. Return from exile is one demographic process among local continuity, movement and administrative change.
 
 ### S03_HELLENISTIC_ROUGH — Hellenistic and long-run demographic studies
 
-**Role:** contextual input at 332 and 167 BCE and in the original long-run reconstruction.  
+**Role:** contextual input at 332 and 167 BCE and a broad long-run demographic constraint.  
 **Type:** rough scholarly estimate and project synthesis.  
 **Retained citation:** Sergio DellaPergola, *Demography in Israel/Palestine: Trends, Prospects, Policy Implications* (2001), especially its explicitly rough long-run estimates.
 
-West-of-Jordan totals are not direct fixed-polygon counts and do not enumerate every visualization category. S23 supersedes the former 167–63 BCE numeric trajectory; S26 supersedes the former 70–638 Roman–Byzantine trajectory.
+West-of-Jordan totals are not direct fixed-polygon counts and do not enumerate every visualization category. The fixed-territory allocations for 167–63 BCE and 70–638 CE are supplied by the more detailed S23 and S26 reconstruction modules.
 
 ### S04_BROSHI_1980 — Roman–Byzantine population reconstruction
 
@@ -48,34 +50,34 @@ West-of-Jordan totals are not direct fixed-polygon counts and do not enumerate e
 **Type:** scholarly archaeological-demographic back-calculation.  
 **Citation:** Magen Broshi, “The Population of Western Palestine in the Roman-Byzantine Period,” *BASOR* 236 (1979): 1–10. [DOI](https://doi.org/10.2307/1356664); [accessible PDF](https://homepages.uc.edu/~martinj/Latin/Roman_Population/Broschi-%20Polulation%20of%20Western%20Palestine%20in%20the%20Roman-Byzantine%20Period.pdf).
 
-Broshi's near-one-million maximum is a model based on urban area, density and agricultural capacity, not a census. S26 is the current source for the selected community trajectory from 70 through 638 CE.
+Broshi's near-one-million maximum is a model based on urban area, density and agricultural capacity, not a census. The selected community trajectory from 70 through 638 CE is documented under S26.
 
 ### S05_SAMARITAN_STUDIES — Samaritan historical and demographic studies
 
-**Role:** separate Samaritan visibility from 400 BCE and broad ancient/medieval scenarios.  
+**Role:** separate Israelite Samaritan visibility from 400 BCE and broad ancient/medieval scenarios.  
 **Type:** specialist historical and archaeological scholarship plus project allocation.
 
-Ancient Samaritan totals vary enormously and cannot be treated as direct counts. Useful modern syntheses include Reinhard Pummer, [“The Samaritans in Recent Research”](https://bibleinterp.arizona.edu/articles/2015/12/pum398030), and *The Samaritans: A Profile* (2016). S26 adds Crown and Chalmers for the Byzantine revolts and their historiography.
+Ancient Samaritan totals vary enormously and cannot be treated as direct counts. Useful modern syntheses include Reinhard Pummer, [“The Samaritans in Recent Research”](https://bibleinterp.arizona.edu/articles/2015/12/pum398030), and *The Samaritans: A Profile* (2016). S26 adds Crown and Chalmers for the Byzantine revolts and their historiography. S27 separately controls the modern demographic series. The visible label **Israelite Samaritans** follows the community's present-day self-designation; the stable runtime ID remains `samaritans`.
 
 ### S06_ARMENIAN_HISTORY — Armenian community history
 
 **Role:** small resident Armenian allocations from late antiquity through the modern period.  
 **Type:** supplementary community history and visibility allocation.
 
-The initial research record cited Palestine Studies, University of Washington Jewish Studies and related Armenian histories but did not retain complete entries. Presence is better established than fixed-territory totals. Armenians are excluded from the Christian bar wherever separately shown, preventing double-counting. S26 adds a primary epigraphic source for late-antique Jerusalem.
+The retained project bibliography includes Palestine Studies, University of Washington Jewish Studies and related Armenian histories but does not preserve complete entries for all of them. Presence is better established than fixed-territory totals. Armenians are excluded from the Christian bar wherever separately shown, preventing double-counting. S26 includes a primary epigraphic source for late-antique Jerusalem.
 
 ### S06_CRUSADER_MEDIEVAL — Crusader and medieval demography
 
 **Role:** 1099, 1187, 1291 and 1348 scenarios.  
 **Type:** scholarly estimate and project reconstruction.
 
-The family includes DellaPergola's rough end-twelfth- and fourteenth-century anchors, discussion of the Kingdom of Jerusalem, and Denys Pringle's late-twelfth-century Jerusalem work. Complete original entries were not retained. Evidence is uneven and often urban or institutional. Frankish residents are separated from armies; the category is not a count of all Crusaders present during conquest.
+The family includes DellaPergola's rough end-twelfth- and fourteenth-century anchors, discussion of the Kingdom of Jerusalem, and Denys Pringle's late-twelfth-century Jerusalem work. Complete entries were not retained for every item. Evidence is uneven and often urban or institutional. Frankish residents are separated from armies; the category is not a count of all Crusaders present during conquest.
 
 ### S07_OTTOMAN_EARLY — Early Ottoman registers
 
 **Role:** 1517 back-cast and 1596 fiscal benchmark.  
 **Type:** Ottoman tax register plus household-to-person reconstruction.  
-**Retained authors:** Wolf-Dieter Hütteroth and Kamal Abdulfattah (1977), supplemented in the original source map by Amnon Cohen and Bernard Lewis for urban religious breakdowns.
+**Retained authors:** Wolf-Dieter Hütteroth and Kamal Abdulfattah (1977), supplemented by Amnon Cohen and Bernard Lewis for urban religious breakdowns.
 
 Registers count taxable households, not the de jure population. Household multipliers, exemptions, mobile residents and Ottoman districts create uncertainty. The fixed territory is approximated rather than copied from an Ottoman administrative total.
 
@@ -90,7 +92,7 @@ The supplied research record did not retain a complete author/title/URL. Adminis
 
 **Role:** 1882 and 1914 anchors.  
 **Type:** critical reconstruction from official Ottoman records.  
-**Principal retained citation:** Justin McCarthy, *The Population of Palestine* (1990), supplemented by Ottoman records and PalQuest summaries in the original research.
+**Principal retained citation:** Justin McCarthy, *The Population of Palestine* (1990), supplemented by Ottoman records and PalQuest summaries retained in the project bibliography.
 
 Official categories and foreign-resident treatment are not uniform. The 1882 reconstruction corrects for some resident foreign Jews; Druze, Armenians and Circassians require supplementary separation.
 
@@ -117,6 +119,7 @@ Small-community separation from broader religious and language categories remain
 **Citation:** *Village Statistics, April 1945*, read with the 1946 *Survey of Palestine* source tradition.
 
 This is an official estimate rather than a new full census. The official “others” category is mainly Druze; Armenian and Circassian separation uses supplementary evidence.
+The 1945 Israelite Samaritan value is not taken directly from *Village Statistics*. S27 supplies an explicit interpolation from adjacent community totals.
 
 ### S13_1948_RECON — 1948 fixed-territory reconstruction
 
@@ -138,6 +141,7 @@ The Jordanian census excludes Israel and Gaza. The result is not one official fi
 **Type:** stitched official enumeration and scholarly total.
 
 The source family combines DellaPergola/Bachi west-of-Jordan totals with Israeli West Bank and Gaza enumeration. Wartime absence, displacement and East Jerusalem treatment create uncertainty.
+The 1967 Israelite Samaritan total is supplied by S27; the official census count for Nablus district is used as a lower-bound cross-check rather than misread as the two-centre total.
 
 ### S16_1997_STITCH, S17_2007_STITCH and S18_2017_STITCH
 
@@ -161,7 +165,8 @@ Gaza has no new wartime census. Mortality, displacement, migration, Area C, fore
 |---|---:|
 | Low research scenario | 75,000 |
 | Selected runtime value | 150,000 |
-| High / plausible upper | 250,000 |
+| Adopted runtime plausible upper | 200,000 |
+| Outer research sensitivity | 250,000 |
 
 Quality is Very Low. All residents are combined because later identities cannot be separated defensibly. The selected value is a rounded visualization scenario, not a published point estimate.
 
@@ -177,11 +182,11 @@ Quality is Very Low. All residents are combined because later identities cannot 
 
 ### Derivation and mismatch
 
-The low accommodates the smallest sedentary reconstructions plus a modest allowance for undercounted residents. The selected sits near the late Middle Bronze benchmark and allows for rural and pastoral residents. The high accommodates older upper estimates, missing sites and mobile populations. “Western Palestine” is only a near territorial match; no mechanical area scaling is applied.
+The low research scenario accommodates the smallest sedentary reconstructions plus a modest allowance for undercounted residents. The selected sits near the late Middle Bronze benchmark and allows for rural and pastoral residents. The adopted runtime upper of 200,000 accommodates upper-end western-Palestine estimates, missing sites and mobile populations without carrying the broader 250,000 sensitivity into the chart. The 250,000 figure remains an outer research sensitivity rather than the stored plausible upper. “Western Palestine” is only a near territorial match; no mechanical area scaling is applied.
 
 ## S22_IRON_AGE_TWO_KINGDOMS — divided monarchy and Assyrian aftermath
 
-### Current adopted scenario
+### Adopted scenario
 
 | Anchor | Group | Selected | Plausible upper |
 |---|---|---:|---:|
@@ -196,7 +201,7 @@ The low accommodates the smallest sedentary reconstructions plus a modest allowa
 | 722 BCE | Other / Unknown | 110,000 | 130,000 |
 | 722 BCE | Total | 400,000 | 500,000 |
 
-The original S22 reconciliation produced 285,000 at c.850 from an older 1000 BCE total of 150,000. The current 300,000 total and 100,000 residual were adopted later and are authoritative. The historical reasoning for a ninth-century fork and the 722 allocation remains applicable.
+The c.850 and 722 values are fixed-territory project allocations constrained by the archaeological and historical evidence below. They are rounded scenarios rather than direct counts.
 
 ### Evidence and derivation
 
@@ -257,7 +262,7 @@ The Jewish increase is not modeled as biological growth alone. It can include mi
 | 701 BCE | 50,000 | 50,000 | Explicit carry-forward; no conquest deduction invented. |
 | 586 BCE | 0 | 0 | Category merged after the c.604 BCE Babylonian rupture. |
 
-Philistines are deducted from the former Other / Unknown allocation; no total or previously named-community selected value changes. Equal selected and upper values produce no faded extension.
+The Philistine allocation is separated from Other / Unknown while keeping the total and the other named-community selected values fixed. Equal selected and upper values produce no faded extension.
 
 ### Evidence
 
@@ -316,6 +321,35 @@ No quantitative source exactly matches the polygon. Broshi's “Western Palestin
 
 The Jewish and Samaritan trajectories preserve regional continuity while recognizing severe revolt losses. Christian growth is gradual and later than institutional Christianization. The separate imperial category ends after 135 because Romanized or Greek-speaking locals are not settlers. The Sasanian army in 614 and temporary Arab-Muslim forces are excluded. The 638 Muslim allocation is a small resident post-conquest scenario, not an army count.
 
+## S27_MODERN_SAMARITAN_SERIES — 1934–1970
+
+**Role:** correct the twentieth-century Israelite Samaritan anchors after the Mandate censuses by combining community registers, specialist demographic summaries and the 1967 official census cross-check.  
+**Type:** direct community counts where available, plus explicitly documented interpolation at 1945 and 1967.
+
+### Principal evidence
+
+1. Benyamim Tsedaka, “Samaritans: Statistics,” *Encyclopaedia Judaica*, 2nd ed., reproduced by [Encyclopedia.com](https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/samaritans): 206 in 1934; 58 in Israel plus 250 in Shechem in 1948; 350 total in 1963; and 430 in 1970.
+2. A.B. *The Samaritan News* and the Centre for Samaritan Studies, [“Survey of the Population Increase of the Israelite Samaritans 1954–2013”](https://www.israelite-samaritans.com/about-israelite-samaritans/population-survey/): the continuously maintained community register records 87 in Holon and 226 in Nablus, 313 total, on 1 January 1954.
+3. Jewish Women's Archive, [“Batsheva Bonne-Tamir”](https://jwa.org/encyclopedia/article/bonne-tamir-batsheva): at the time of Bonne-Tamir's 1961 study, about 150 Israelite Samaritans lived in Holon and 200 in Nablus.
+4. Israel Defense Forces, *Census of Population and Housing in the Areas Administered by the Israel Defense Forces, 1967*, vol. 1, [introduction](https://www.levyinstitute.org/levy-files/pubs/1967_census/vol_1_intro.pdf): 139 Israelite Samaritans were counted in Nablus district. This is not a count of the Holon community and therefore not the full fixed-territory total.
+
+### Adopted derivation
+
+| Runtime anchor | Selected | Plausible upper | Derivation |
+|---|---:|---:|---|
+| 1945 | 290 | 300 | Linear interpolation from 206 in 1934 to 308 in 1948 gives 286; selected rounded to the nearest ten. |
+| 1948 | 308 | — | Documented two-centre total: 58 in Israel plus 250 in Shechem. |
+| 1961 | 350 | 370 | Contemporary approximate split: about 150 in Holon plus 200 in Nablus. |
+| 1967 | 400 | 420 | Linear interpolation from 350 in 1963 to 430 in 1970 gives 396; selected rounded to the nearest ten and checked against the census count of 139 in Nablus district alone. |
+
+The 1914 value of 150 is plausible beside the community register's 140 on 1 March 1919. The official Mandate census values are 163 in 1922 and 182 in 1931. The early twentieth-century population was therefore below 200, while the post-1948 anchors must represent both the Holon and Nablus/Shechem population centres.
+
+The four fixed-territory totals are unchanged. Each increase in the named Israelite Samaritan value is offset exactly in `other_unknown`, which remains the balancing residual. The visible label is **Israelite Samaritans** at every active anchor; this terminology choice does not claim that the same English self-designation was used in every historical period.
+
+## Displayed source shorthand
+
+The animation footer is a compact provenance cue, not a bibliography. It names representative evidence families and, where necessary, identifies the runtime figure as a project synthesis, reconstruction, back-cast, stitch, interpolation, projection or allocation. Context-only evidence is labeled as such. Internal source IDs are not shown to viewers; they remain in `data_source_ids` for validation and traceability. Full retained citations, territorial mismatches and derivations remain in this document and in `sources.csv`.
+
 ## Citation and provenance limitations
 
-The earliest research reports used internal search-session citation markers that are not durable public references. They have not been reproduced here. Where the retained project record lacks a complete publication entry, this guide says so rather than reconstructing one from memory. Future research should replace incomplete source-family descriptions with stable, full bibliographic records while preserving the existing source IDs or documenting any ID migration.
+The public source record includes only durable references. Non-portable internal search markers are excluded. Where the retained project bibliography lacks a complete publication entry, this guide states that limitation rather than reconstructing a citation from memory. Future bibliographic work should replace incomplete source-family descriptions with stable, full records while preserving the existing source IDs or documenting any ID migration.

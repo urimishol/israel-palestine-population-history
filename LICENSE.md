@@ -17,4 +17,4 @@ Factual data may not be protected by copyright in every jurisdiction. Where copy
 
 ## Suggested attribution
 
-> Mishol, Uri. *Historical Population of Israel, the West Bank and Gaza, 1500 BCE–2026*. Dataset version 2.14.2, 2026. https://github.com/urimishol/israel-palestine-population-history
+> Mishol, Uri. *Historical Populations in the Territory of Modern Israel, the West Bank and Gaza*. Dataset version 2.15.3, 2026. https://github.com/urimishol/israel-palestine-population-history

@@ -2,7 +2,7 @@ community_id,default_label,color,sort_order
 northern_israelites,,#4F86B4,0
 israelite_jewish,,#356D9D,1
 philistines,,#A17A3F,2
-samaritans,,#8B6F9B,3
+samaritans,Israelite Samaritans,#8B6F9B,3
 imperial_settlers,,#B0704F,4
 christians,Christians,#9A4F54,5
 muslims,Muslims,#397A52,6
