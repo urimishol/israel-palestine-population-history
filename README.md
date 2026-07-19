@@ -1,6 +1,6 @@
 # Historical populations in the territory of modern Israel, the West Bank and Gaza
 
-This repository publishes the dataset behind [*Who Lived Here? Population of Israel and Palestine Through 3,500 Years*](https://www.youtube.com/watch?v=Bsf6Uza9cgA), a bar-chart-race animation researched and produced by Uri Mishol as an independent project.
+This repository publishes the dataset behind [*Who Lived Here? Population of Israel and Palestine Through 3,500 Years*](https://youtu.be/C8ji3H2TAzg), a bar-chart-race animation researched and produced by Uri Mishol as an independent project.
 
 **Current dataset version:** 2.15.3  
 **Coverage:** 1500 BCE–2026 CE  
